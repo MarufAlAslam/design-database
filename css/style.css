@@ -198,6 +198,12 @@ ul {
         bottom: -35px;
         left: 85%;
     }
+	.fa.fa-angle-left.fa-2x.text-white {
+		color: black !important;
+	}
+	.fa.fa-angle-right.fa-2x.text-white {
+		color: black !important;
+	}
 }
 
 @media screen and (max-width:450px){
