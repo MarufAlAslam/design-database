@@ -31,20 +31,42 @@ html, body{
 	font-size: 75px;
 	font-weight: bold;
 }
+.text-yellow.bg-purple.text-center.text-uppercase {
+	color: #8B52FF !important;
+}
+.text-purple{
+	color: #8B52FF !important;
+}
+.line.bg-purple {
+	height: 2px;
+	background: #8B52FF;
+	margin: 15px 0;
+}
+.text-dark{
+	color: black !important;
+}
+.bg-yellow{
+	background-color: #FFDE58 !important;
+}
 .bg-primary{
     background-color: #8C52FF !important;
 }
 .carouselSlider .container {
 	max-width: 85% !important;
 }
+.line.bg-yellow {
+	height: 2px;
+	background: #FFDD57;
+	margin: 15px 0;
+}
 .carousel-control-prev {
 	position: absolute !important;
-	left: -100px !important;
+	left: -40px !important;
     opacity: 1;
 }
 .carousel-control-next {
 	position: absolute !important;
-	right: -100px !important;
+	right: -40px !important;
     opacity: 1;
 }
 .carousel-indicators {
@@ -139,6 +161,9 @@ html, body{
 }
 .navbar-toggler{
     border: unset !important;
+}
+ul {
+	padding-left: 15px;
 }
 @media screen and (max-width:992px){
     .social.list-unstyled.m-0 {
